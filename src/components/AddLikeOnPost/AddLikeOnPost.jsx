@@ -3,38 +3,18 @@ import { Button } from "react-bootstrap";
 import { postsContext } from "../../PostsContextProvider";
 import { useParams } from "react-router-dom";
 
-const AddLikeOnPost = ({ id }) => {
-  const { onePost, getOnePost, updatePost, posts } = useContext(postsContext);
-  // const { id } = useParams();
+const AddLikeOnPost = ({ item }) => {
+  const { likeDislikePost } = useContext(postsContext);
 
-  const [like, setLike] = useState(false);
-  // console.log(onePost);
-
-  useEffect(() => {
-    getOnePost(id);
-  }, []);
-
-  useEffect(() => {
-    if (onePost) {
-      setLike(onePost.isLike);
-    }
-  }, [onePost]);
-
-  function addLike() {
-    let editedPost = {
-      ...onePost,
-      isLike: true,
-    };
-
-    // console.log(editedPost);
-
-    updatePost(id, editedPost);
+  function addLike(e) {
+    e.preventDefault();
+    likeDislikePost(item.id, !item.isLike);
   }
 
   return (
     <>
       <Button onClick={addLike} className="mx-1" variant="dark">
-        Like{!posts.isLike ? "🤍" : "❤️"}
+        Like {!item.isLike ? "🤍" : "❤️"}
       </Button>
     </>
   );

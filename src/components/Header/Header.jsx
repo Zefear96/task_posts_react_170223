@@ -8,7 +8,12 @@ const Header = () => {
   return (
     <Navbar bg="dark" variant="dark" className="header">
       <Container>
-        <Navbar.Brand href="#home">CRUD posts</Navbar.Brand>
+        <Navbar.Brand
+          onClick={() => navigate("/")}
+          style={{ cursor: "pointer" }}
+        >
+          CRUD posts
+        </Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link onClick={() => navigate("/")}>Home</Nav.Link>
           <Nav.Link onClick={() => navigate("/add")}>Add</Nav.Link>

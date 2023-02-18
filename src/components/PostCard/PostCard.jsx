@@ -22,12 +22,13 @@ const PostCard = ({ item }) => {
       className="my-3 card"
     >
       <DropdownButton
-        as={ButtonGroup}
         size="sm"
         key="down-centered"
-        id={`dropdown-button-drop-down-centered`}
+        id="dropdown-button-drop-down-centered"
         drop="down-centered"
         variant="dark"
+        title=""
+        className="d-flex justify-content-center w-100 mx-auto"
       >
         <Dropdown.Item onClick={() => navigate(`/edit/${item.id}`)}>
           Edit
@@ -48,7 +49,7 @@ const PostCard = ({ item }) => {
         <Card.Text>{item.desc.slice(0, 80) + "..."}</Card.Text>
 
         <div>
-          <AddLikeOnPost id={item.id} />
+          <AddLikeOnPost item={item} />
         </div>
       </Card.Body>
     </Card>

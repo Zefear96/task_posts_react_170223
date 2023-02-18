@@ -35,6 +35,11 @@ const PostsContextProvider = ({ children }) => {
     getPosts();
   }
 
+  async function likeDislikePost(id, isLike) {
+    await axios.patch(`${API}/${id}`, { isLike });
+    getPosts();
+  }
+
   let values = {
     posts,
     onePost,
@@ -44,6 +49,7 @@ const PostsContextProvider = ({ children }) => {
     getOnePost,
     updatePost,
     deletePost,
+    likeDislikePost,
   };
 
   return (
