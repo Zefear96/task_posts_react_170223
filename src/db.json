@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "author": "Pepe",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui velit rem asperiores perspiciatis nihil aperiam a architecto sint! Ipsum odio repellendus perferendis eveniet eius earum labore maxime at ab dolores.",
+      "image": "https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg",
+      "isLike": true,
+      "id": 1
+    },
+    {
+      "author": "Pepe",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui velit rem asperiores perspiciatis nihil aperiam a architecto sint! Ipsum odio repellendus perferendis eveniet eius earum labore maxime at ab dolores.",
+      "image": "https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg",
+      "isLike": true,
+      "id": 2
+    },
+    {
+      "author": "Pepe",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui velit rem asperiores perspiciatis nihil aperiam a architecto sint! Ipsum odio repellendus perferendis eveniet eius earum labore maxime at ab dolores.",
+      "image": "https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg",
+      "isLike": true,
+      "id": 3
+    },
+    {
+      "author": "Josinho",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui velit rem asperiores perspiciatis nihil aperiam a architecto sint! Ipsum odio repellendus perferendis eveniet eius earum labore maxime at ab dolores.",
+      "image": "https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg",
+      "isLike": false,
+      "id": 4
+    },
+    {
+      "author": "Pepe",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui velit rem asperiores perspiciatis nihil aperiam a architecto sint! Ipsum odio repellendus perferendis eveniet eius earum labore maxime at ab dolores.",
+      "image": "https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg",
+      "isLike": true,
+      "id": 5
+    }
+  ]
+}
